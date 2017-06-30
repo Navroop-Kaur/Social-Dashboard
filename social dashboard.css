@@ -33,8 +33,7 @@ h1 {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-	height: 600px;
-}
+	}
 /*header {
   background-color: #4267b2;
   height: 30px;
@@ -58,11 +57,14 @@ footer {
 #menu,
 #sidebar {
   background-color: #e9ebee;
+  position: relative;
 }
 #header {
     background-color: #4267b2;
     color: white;
 		height:42px;
+    width: 100%;
+    z-index:1;
 }
 .white-text {
   color: white!important;
